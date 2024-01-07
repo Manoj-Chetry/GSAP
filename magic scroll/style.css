@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+#main{
+    color: white;
+    padding: 40px 5vw;
+    z-index: 999;
+}
+#hero{
+    height: 100vh;
+    z-index: -2;
+    background-color: transparent;
+}
+#herotext{
+    text-transform: uppercase;
+    font-family: 'Abril Fatface', serif;
+}
+
+#herotext h1{
+    font-size: 6vw;
+    margin-top: 80px;
+}
+#herotext span{
+    font-size: 1.7vw;
+}
+
+#secondtext{
+    text-transform: uppercase;
+    font-size: 1.7vw;
+    margin-top: 300px;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 4vw;
+    z-index: 999;
+}
+
+
+#section3{
+    margin-top: 100px;
+}
+#gallery{
+    display: flex;
+    width: 90vw;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px auto;
+}
+
+#img1, #img2, #img3, #img4{
+    height: fit-content;
+}
+
+#img1 img{
+    width: 44vw;
+    aspect-ratio: 2;
+}
+#img2 img{
+    width: 44vw;
+    aspect-ratio: 2;
+}
+#img3 img{
+    width: 44vw;
+    aspect-ratio: 2;
+}
+#img4 img{
+    width: 44vw;
+    aspect-ratio: 2;
+}
+
+#section2 span, #section3 span{
+    text-transform: uppercase;
+    font-size: 2.5vw;
+}
+#section2 p{
+    width: 50vw;
+    font-size: 2vw;
+    line-height: 2;
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    margin-top: 40px;
+}
+
+#bg{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+#bg img{
+    transform: translate(-30vw, -40%);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    height: 120vh;
+}
+
+#credits{
+    display: flex;
+}
+#credits span{
+    margin-right: 10px;
+}
+#credits a{
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: rgb(50, 167, 190);
+}
